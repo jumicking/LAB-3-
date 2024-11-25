@@ -35,10 +35,10 @@ public class LAB3_MALILONG {
             String numb1 = "";
             String numb2 = "";
             String numb3 = "";
-            int swit = Integer.parseInt(Fx);
+            int response = Integer.parseInt(Fx);
 
             //the functions of objectives//
-            switch (swit) {
+            switch (response) {
                 case 1 -> {
                     numb1 = JOptionPane.showInputDialog("Input radius:");
                     r = Double.parseDouble(numb1);
